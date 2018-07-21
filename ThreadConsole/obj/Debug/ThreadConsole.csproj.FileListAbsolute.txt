@@ -1,0 +1,5 @@
+D:\MyProject\ThreadConsole\ThreadConsole\bin\Debug\ThreadConsole.exe
+D:\MyProject\ThreadConsole\ThreadConsole\bin\Debug\ThreadConsole.pdb
+D:\MyProject\ThreadConsole\ThreadConsole\obj\Debug\ThreadConsole.csprojResolveAssemblyReference.cache
+D:\MyProject\ThreadConsole\ThreadConsole\obj\Debug\ThreadConsole.exe
+D:\MyProject\ThreadConsole\ThreadConsole\obj\Debug\ThreadConsole.pdb
