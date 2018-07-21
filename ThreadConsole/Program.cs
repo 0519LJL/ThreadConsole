@@ -22,6 +22,9 @@ namespace ThreadConsole
             Thread thread3 = new Thread(() => { Console.WriteLine("limda 生成的");});
             thread3.Start();
 
+            Thread thread4 = new Thread(new ParameterizedThreadStart(consol));
+            thread4.Start("线程4");
+
             Console.ReadLine();
 
         }
@@ -30,6 +33,13 @@ namespace ThreadConsole
         {
             
             Console.WriteLine("这是一个无参线程");
+        }
+
+
+        static void consol(object message)
+        {
+
+            Console.WriteLine(string.Format("这是一个有参线程，{0}", message));
         }
     }
 }
